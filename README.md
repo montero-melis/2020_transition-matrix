@@ -1,7 +1,7 @@
 README
 =====
 
-Solve a "magic trick" that circulated during the Coronavirus crisis, under the
+Solves a "magic trick" that circulated during the Coronavirus crisis, under the
 heading "Stay at home" ("Quédate en casa"). It had people move freely on a 4x4
 board where each cell was a card that denoted one of the rooms at home. In the
 end the magician has everyone converge onto the same room, independently of how

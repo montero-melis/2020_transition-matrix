@@ -54,7 +54,7 @@ make_transition_matrix <- function (n) {
   colnames(m) <- mynames
   m
 }
-# Obteber matriz de transiciones tras borrar celdas
+# Obtener matriz de transiciones tras borrar celdas
 delete_cells <- function (cells_out, m) {
   (cell_index <- ! colnames(m) %in% cells_out)
   m[cell_index, cell_index]
@@ -177,7 +177,7 @@ Puesto que comenzamos en la casilla 3-1, en el primer paso nos podemos mover a
 las siguientes casillas:
 
 ```{r, fig.height=fig_hei, fig.width=fig_wid}
-move_n_steps("3-1", 1, m4) %>%
+move_n_steps(start_cells = "3-1", steps = 1, m = m4) %>%
   paint_cells()
 ```
 
